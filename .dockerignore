@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+.github
+
+# Documentation
+README.md
+docs/
+*.md
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+monarchmoney-sync-backend
+dist/
+coverage.out
+coverage.html
+*.log
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+*_test.go
+testdata/
+
+# Development tools
+Makefile
+.golangci.yml
+.air.toml
